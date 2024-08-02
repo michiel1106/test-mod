@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "wallsnstuff:test_ore",
+    "#minecraft:walls"
+  ]
+}

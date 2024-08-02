@@ -1,0 +1,11 @@
+{
+  "item.wallsnstuff.test": "Test tool",
+  "block.wallsnstuff.test_block": "Test block",
+  "block.wallsnstuff.test_ore": "Test ore",
+  "block.wallsnstuff.cobblestone_wall": "Cobblestone wall",
+  "block.wallsnstuff.cobblestone_fence": "Cobblestone fence",
+  "block.wallsnstuff.cobblestone_gate": "Cobblestone gate",
+  "item.wallsnstuff.detector": "Wall detector",
+
+  "itemgroup.walls": "Walls n' stuff"
+}

@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "wallsnstuff",
+	"version": "${version}",
+	"name": "Wallsnstuff",
+	"description": "This mod adds a bunch of new walls from wood types and whatnot",
+	"authors": [
+		"Bikerboys or michiel1106 on most platforms"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/wallsnstuff/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.biker.wallsnstuff.Wallsnstuff"
+		],
+		"client": [
+			"net.biker.wallsnstuff.WallsnstuffClient"
+		],
+		"fabric-datagen": [
+			"net.biker.wallsnstuff.WallsnstuffDataGenerator"
+		]
+	},
+	"mixins": [
+		"wallsnstuff.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

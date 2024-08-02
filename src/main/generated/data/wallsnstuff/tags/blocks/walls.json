@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "wallsnstuff:cobblestone_wall",
+    "#minecraft:walls"
+  ]
+}
